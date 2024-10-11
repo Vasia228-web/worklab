@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    color: red;
+}
+.otstup{
+    padding-left: 3%;
+    font-weight: bold;
+    border: 1px solid red;
+}
+ul{
+    list-style-type: circle;
+}
+.custom{
+    font-weight: bold;
+    padding-left: 3%;
+    border: 2px solid red;
+}
+.uli{
+    padding-left: 8%;
+    font-weight: bold;
+    border: 1px solid red;
+}
+
+
+.grin{
+    color: green;
+    text-decoration: underline;
+
+}
+.text{
+    font-weight: bold;
+}
+
+.text2{
+    font-weight: bold;
+}

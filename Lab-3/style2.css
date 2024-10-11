@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    color: red;
+}
+body{
+    background-image: url('https://cdn.discordapp.com/attachments/1036335632882073661/1294380467478462547/apple-1920.jpg?ex=670acd3f&is=67097bbf&hm=bdd6e90d358fe97903a886c46e8dafe5b8d0f0e7a866aefbdd39811df7a34121&');
+    
+    background-size: cover;
+}
+.tab{
+    position: absolute;
+    bottom: 10px;
+}
