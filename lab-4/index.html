@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - LabWork4</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+<h1>Моя перша HTML-форма</h1>
+<br>
+<form action="https://httpbin.org/get" method="get">
+    <label for="name">Ім'я:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="vasia">Дата народження:</label>
+    <input type="date" type="text" id="vasia" name="vasia"     placeholder="дд.мм.гггг"><br><br>
+
+    <label for="email">Імейл:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="message">Повідомлення:</label>
+    <textarea id="message" name="message"></textarea><br><br>
+    <br>
+  <p1>Ваші улюблені напої</p1>
+  <br>
+    <input type="checkbox" name="drink" value="tea">Чаї<br>
+    <input type="checkbox" name="drink" value="other">Соки<br>                                             
+    <input type="checkbox" name="drink" value="soda">Газовані напої<br>
+    <input type="checkbox" name="drink" value="water">Вода<br>
+    <br>
+  <p1>Моя національність</p1>
+  <br>
+  <input type="radio" name="nationality" value="ukr">Українець<br>
+  <input type="radio" name="nationality" value="rom">Румун<br>
+  <input type="radio" name="nationality" value="ukr">Поляк<br>
+    <br>
+    <input type="submit" value="Надіслати">
+    <input type="reset" value="Очистити">
+</form>
+  <picture>
+  <source media="(max-width: 468px)" srcset="https://picsum.photos/300/500">
+    <img src="https://picsum.photos/1000/400">
+  </picture>
+</body>
+<!-- partial -->
+  
+</body>
+</html>
