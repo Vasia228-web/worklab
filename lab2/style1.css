@@ -1,0 +1,52 @@
+body{
+    background-color:  #46f2d8;
+}
+
+.tab{
+    padding-left: 3%;
+}
+
+.text{
+
+    font-weight: bolder;
+    font-size: 150%;
+}
+img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.print{
+    color: blue;
+    
+    
+}
+.image{
+    width: 30px;
+    height: 30px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.tooltip .tooltiptext {
+    visibility: hidden; 
+    width: 150px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; 
+    left: 50%;
+    margin-left: -75px; 
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible; 
+    opacity: 1;
+}
